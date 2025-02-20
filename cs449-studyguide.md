@@ -1,0 +1,128 @@
+## Through the PRISM Darkly
+1. What is the "false dilemma" mentioned in the article?
+That if the NSA doesn't perform their surveillance there will be other terrorist attacks like 9/11.
+
+2. Where should the real blame be placed regarding the Manning & Snowden leaks?
+Whoever gave access to Manning/Snowden to access those classified documents. Based on Snowden's job title 
+he did not need access to this documents.
+
+3. What two defenses are used of the US surveillance program?
+Trust me and false dilemma.
+
+4. What are two myths concerning the surveillance program?
+The first myth is that the goverment started (assulting the 4th Amendment) surveillance programs because of 9/11 when in fact they have been doing similar programs 
+long before 9/11. The second is that there is rigorous oversight of surveillance activies (only through FISA which can be changed as seen fit by the government).
+
+5. What is the primary oversight agency of the goverment surveilance program?
+FISA
+
+## "Free" Online Services and Gonzo Capitalism
+1. In 2022 Google settled with forty states for $391.5 million. What was the charge against Google?
+Google obfuscated their policy on personal location data collection.
+
+2. The 2022 court settlement was based upon a 2018 expose by the Associated Press. What did the AP document expose?
+Google services collected location data of iPhone and Android devices even if the user utilized settings that 
+would prevent them from doing so.
+
+3. What explanation did Google offer to justify the behavior documented by the Associated Press in 2018?
+It was to improve personal experience.
+
+4. What specific protections are there for personal privacy in the U.S. Consitution?
+There is none. (This is why state laws on the matter are important)
+
+5. According to the Supreme Court Justice William O. Douglas in Griswold v. Connecticut, any implied Constitutional guarantees 
+of personal privacy would have to be found buried somehow in _______?
+penumbra.
+
+6. In 2023 the Department of Justice filed a second suit against Google for what crime?
+For anticompetitive practices in its online advertising business.
+
+7. In 2022 the U.S. House of Representatives Judiciary Committee published a report on competition in digital markets that listed 
+several examples of illegal activities by online companies. List 2 of them.
+Anticompetitive practices in online marketing and advertising.
+
+8. The 2022 House report identified 3 common problems attributed to the four online platforms (Google, Amazon, Facebook, Apple). What are they?
+- Platforms serve as gatekeepers over a key channel of distribution.
+- Use gatekeeper position to maintain market power.
+- Abuse their role as intermediaries to enrich themselves and dominate markets. 
+
+9. The author lists 9 questionable business practices of Google that resulted from the recent international litigations. List 4 of them.
+- misleading customers
+- anticompetitive practices 
+- blocking competition
+- maintaining a monopoly
+- illegally using captured biometric data
+- creating an ecosystem of interlocked monopolies
+
+10. What was the term that pioneers of modern economics Adam Smith and David Riccardo used to describe the business practices of which Google 
+and other online platforms providers were accused in recent international courts?
+Rent seeking
+
+## Prosperity Theology Goes Online: Will This Be a Fifth Great Awakening?
+1. What was the size of e-commerce annual revenue in 2021 according to Statistica.com?
+$767 billion dollars
+
+2. What does the acronym EULA stand for?
+End User Licence Agreement
+
+3. What does FBCP stand for?
+Faith Based Content Provider
+
+4. The article disccused several FBCPs. List two.
+- Pray.com 
+- Hallow.com
+- BibleGateway.com 
+
+5. List three "subsidiaries and affiliates" of BibbleGateway.com.
+- Dow Jones 
+- Realtor.com
+- The Wall Street Journal 
+
+6. What does B2C mean?
+Business to Customer
+
+7. Associate the FCBP businesses below with the appropriate property from the list. (a) B2C (b) subscription-based (c) registration-only fee-based 
+- Hallow.com (b) subscription-based
+- Pray.com (c) registration-only fee-based
+- BibleGateway.com (a) B2C
+
+8. Which FBCP includes the onerous "indemnification clause" in its EULA?
+Pray.com
+
+9. Which FBCP includes in its EULA a claim to freely use any IP disclosed in the use of the service?
+BibleGateway.com
+
+10. The author shares 10 observations relating to the evolution of FBCPs as of 2022. List 4 of them.
+- FBCP have followed the path charted by e-commerce over the last 30 years by first experimenting with 
+a free based service to determine a potential online presence then following that by identifying any lurking 
+revenue streams.
+- Could customer-to-customer business model succeed or be developed for FBCP.
+- Social media is the perfect enviroment for cultivating, maintining, and manipulating thought bubbles and thought herds inside of them.
+- To what extent will FBCP be able to take advantage of inderect revenues streams like pass-throughs. 
+
+
+## BRAP Forensics
+1. What is computer activity mining?
+The recovery of information about a computer user or computer use throught the computer iteself, for example through system logs. 
+
+2. List two core areas of modern computer forensics.
+CAM (Computer Activity Mining) and media analysis.
+
+3. What is media analysis/file system forensics?
+Practice of recovering data from non-volatile storage devices.
+
+4. What does BRAP forensics do?
+Reveals stored data as well as information about user behavior.
+
+5. Give two examples of BRAP forensics.
+- Cookies on a browser which reveal user browing behavior (Browser Residue).
+- Metadata on Microsoft Word which reveals the authors and changes to the file (Application Residue). 
+
+6. Why were "cookies" developed? 
+Because HTTP is stateless we use cookies to store information for subsequent requests.
+
+7. In what file is the cache and URL history organized and stored on a Windows computer?
+INDEX.DAT
+
+8. What parts of the files are deleted when the recycle bin on a Windows computer is emptied?
+The metadata.
