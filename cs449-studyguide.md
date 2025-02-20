@@ -126,3 +126,80 @@ INDEX.DAT
 
 8. What parts of the files are deleted when the recycle bin on a Windows computer is emptied?
 The metadata.
+
+
+## Data Hiding Tactics for Windows and Unix File Systems 
+1. What were two early incarnations of data hiding metioned in the article?
+- Storing data on out-of-standard track on a floppy disks that were beyond the reach of the operation system. 
+- Hiding data in non-data fields in an network packet.
+
+2. According to the article, hidden data may be thought of as a special case of what?
+Intentionally dark data
+
+3. What example given in the article of dark data that resides within light data?
+Watermark
+
+4. Provide two examples of non-physical data hiding?
+- Cryptography 
+- Watermarking 
+- Steganography
+
+5. What is the primary goal of cryptography?
+Obscuring the content of the message and not the communication of the message.
+
+6. What is the primary goal of steganography?
+Concerned with hiding the communication of the message.
+
+7. What is the primary goal of digital watermarking?
+Add sufficient metadata to provide source, provenance, and ownership to a message.
+
+8. The number of tracks/cylinders recognized by a disk controller has to be the same as the number of tracks/cylinders 
+recognized by the operating system? (T/F)
+False
+
+9. What are the two structures of a hard disk drive?
+Geometric structure and a set of nested data structures.
+
+10. What is the name of the area of a secondary storage device where vendors could store data that is protected from normal user activities?
+Host Protected Area
+
+11. What is the feature that allows modification of the characteristics of a hard drive (e.g. the number of available clusters)?
+Device Configuration Overlay
+
+12. What is the name of the set of consecutive blocks on a hard disk that appear to an operating system as a seperate volume 
+(aka, drive in Windows and directory/mount point in Unix)?
+Partition
+
+13. What is the name of the DOS partition at the beginning of a drive that contains the boot code and partition table?
+Master Boot Record (MBR)
+
+14. What is the name of the remaining area of a partition on a hard drive that cannot be accessed by the operating system by conventional means?
+Volume slack
+
+15. What is the name given to the unused sectors at the end of a partition that cannot be accessed by the operating system?
+Partition slack 
+
+16. Bad blocks/sectors are not accessible by the operating system? (T/F)
+True
+
+17. Hidden data may be store in bad blocks/sectors. (T/F)
+True
+
+ 18. What is RAM slack?
+ Data from memory that is added to pad the last sector when the file size does not take up an entire multiple of the sector.
+
+ 19. What is Microsoft's versions of a resource fork?
+ Alternate Data Streams
+
+ 20. How long will an alternate data stream persist?
+ For as long as the attached file or folder lives (assuming that file or folder lives and remains within a NTFS file structure)
+ 
+ 21. What is a file carver?
+ Forensics tools that anaylze the data on a a drive without regarding the logical organization of the drive.
+
+ 22. Eleven digital disk warrens in Windows and Unix file systems were discussed in this article. List 5.
+ - Hiding data within documents 
+ - Hiding data within HTML
+ - Encrypted files
+ - Renamed files 
+ - Binding one executable file to another
