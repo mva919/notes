@@ -203,3 +203,97 @@ True
  - Encrypted files
  - Renamed files 
  - Binding one executable file to another
+
+## Watermarking Cyberspace
+1. What is a digital watermark?
+A digital pattern or signal inserted into a digital document.
+
+2. How does digital watermarking work?
+The digital pattern or signal that is imposed on the digital document before being sold or 
+distributed helps us authenticate the copies (giving the ability of ownership) of the document if the digital watermark is 
+resilient against general transmissions and transformations. 
+
+3. How does digital watermarking different from encryption?
+Encryption makes a digital document not readable/usable until decrypted. A watermark does not do that instead it 
+marks the document to authenticate the source (either in a visible or non visible manner). Plus encrytion does not leave 
+any traces after being decrypted.
+
+4. Give 3 examples of digital fingerprinting?
+- Checksum algorithms 
+- Cyclic redundancy 
+- RSA message digest
+
+5. Give 2 uses of digital watermarks?
+- Watermarks can be used to check that a copy is authentic by removing the watermark and checking with a hashing algorithm 
+that the watermakr is the same as the origal one created for the copy.
+- Watermarks can have non-repudiable duplication by giving each copy that is being sent a different water mark so that if 
+the copy is seen being disbributed without permission you can see which was the original copy that did it. 
+
+6. What are the two main classes of digital watermarks?
+- Visible
+- Invisible
+
+7. List two charactersctics of effective watermarks.
+- Must be difficult or impossible to remove.
+- Must survice common transmision and transformattions.
+
+8. What are two main categories of watermarking techniques?
+- Text 
+- Image
+
+9. What are two techniques for image watermarking?
+- Color speration watermark so that the watermark only appears in a specific color band this technique is used for when journalist 
+are selecting images to buy since the printer can not seperated the watermark.
+- Frequency domain watermarking (FFT)
+
+10. What are the three common techniques for watermarking text?
+- Text-line coding 
+- Word-space coding 
+- Character encoding
+
+## Disk Wiping by any other name 
+1. What was the name of the builtin windows wiping utility? 
+EFSTMPWP
+
+2. How did the Windows cipher utility work?
+It would write over very unallocated space. 
+
+3. What was the problem with the Windows cipher utility?
+It would take up so much space that the OS would hang up.
+
+4. Windows doesn't delete file data. What doe it do when the delete file command is executed?
+It marks the space the file was utlizing as unallocated so it can be used again.
+
+5. What are the two problems caused when a disk sanitizer fails to overwrite the old MFT entries?
+- The name of the old file is still available 
+- If the file data was small enough it can be present and stored in the MFT
+
+6. Of the seven disk whiping utilities analyzed, how many were shown to be effective?
+One
+
+7. Were the majority of disk wiping utilities effective at removing small datafiles that were present in the MFT entries?
+No 
+
+8. What is the term used to describe data that was unaffected by the disk wiping?
+
+
+9. Why do disk wiping utilities frequently miss small files stored in MFT entries?
+The MFT entries are labelled as allocated space which is not checked by disk wipers. 
+
+10. Do disk wiping utilities clean the registry hive?
+No 
+
+11. What is the other category of utilities that are designed to used prior to reporpousing or recycling a drive?
+Disk purgers
+
+## Identity Theft and Financial Fraud: Some Strangeness in the Proportions 
+1. What are 3 major causes or sources of financial fraud and identity theft?
+- Lost/stolen devices 
+- Hacked computers/computer network's
+- Discarded/stolen documents
+
+2. Which organizations have produced the lion's share of data breaches?
+- Banks 
+- Colleges 
+- Govenment agencies 
+- Healthcare providers
